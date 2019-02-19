@@ -1,8 +1,10 @@
 # Digital-ocean-auto-volume-backup
-Digital ocean auto volume backup shell script
+Digital ocean auto volume backup shell script.Currently, it will keep 2 newest snapshots. If you want to config this, change the value.
 
 # What does this script do ?
 Since DigitalOcean currently didn't provide auto backup for the volume. So, i created the script to call DigitalOcean API and creating volume's snapshot. After successfully created, it will delete the old snapshot.
+
+Currently, it will keep 2 newest snapshots. If you want to config this, change the value.
 
 Digital ocean API documentation : https://developers.digitalocean.com/documentation/v2/#introduction
 
