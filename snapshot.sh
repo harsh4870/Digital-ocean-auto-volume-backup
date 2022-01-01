@@ -6,6 +6,8 @@ SNAPSHOT_NAME=''
 
 DATE=`date '+%Y%m%d-%H%M%S'`
 
+sync
+
 curl -X POST \
   "https://api.digitalocean.com/v2/volumes/$VOLUME_ID/snapshots" \
   -H "authorization: Bearer $DIGITALOCEAN_TOKEN" \
